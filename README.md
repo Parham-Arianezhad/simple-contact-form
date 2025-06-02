@@ -12,9 +12,9 @@ This is a lightweight and beginner-friendly WordPress plugin that adds a simple 
 
 1. Download or clone this repository into `wp-content/plugins/`
 2. Activate the plugin from the WordPress admin
-3. Use the shortcode `[simple_contact_form]` in any post or page
+3. Use the shortcode `[scf_contact_form]` in any post or page
 
 ## Usage
 
 ```php
-[simple_contact_form]
+[scf_contact_form]
