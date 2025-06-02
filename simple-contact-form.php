@@ -28,6 +28,7 @@ function scf_enqueue_styles() {
     wp_enqueue_style(
         'scf_styles', plugin_dir_url( __FILE__ ) . '/assets/css/contact-form.css'
     );
+    wp_enqueue_script( 'scf_scripts', plugin_dir_url( __FILE__ ) . '/assets/js/contact-form.js');
 }
 add_action('wp_enqueue_scripts', 'scf_enqueue_styles');
 
